@@ -202,7 +202,7 @@ mode    db      FALSE                   ;If false then trying to match a line
                                         ; from buf1 to lines in buf2. If true
                                         ; then viceversa.
 
-sinc    db      TRUE                    ;Sinc flag, start IN SINC
+sinc    db      FALSE                   ;Sinc flag, start IN SINC
 
 bend    db      0                       ;binary end of file flag, 0= none yet,
                                         ; 1= file 1 ended, 2= file 2 ended
@@ -1681,4 +1681,3 @@ stack   ends
 
 
         end     start
-                                                           
