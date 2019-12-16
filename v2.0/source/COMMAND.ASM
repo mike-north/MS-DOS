@@ -122,7 +122,7 @@ USERPATH LABEL  BYTE
         DB      0               ; Null path
         DB      "COMSPEC="
 ECOMSPEC DB     "/COMMAND.COM"
-        DB      134 DUP (0)
+        DB      199 DUP (0)
 
 ENVIREND        LABEL   BYTE
 
@@ -785,4 +785,3 @@ IF IBMVER
 ENDIF
 
         END     PROGSTART
-                                                                                     
